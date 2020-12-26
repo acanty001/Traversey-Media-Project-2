@@ -73,7 +73,7 @@ img{
 }
 
 .showcase{
-	background-image: url('/IMG/pexels-laptop-image.jpg');
+	background-image: url('IMG/pexels-laptop-image.jpg');
 	background-size: cover;
   	background-position: center;
 	grid-column: 1 / span 3;
@@ -239,7 +239,7 @@ img{
 		line-height: 1em;
 	}
 	.container-2 .top-box-b h4{
-		line-height: 0;
+		line-height: 1.5em;
 	}
 	.container-3{
 		grid-template-columns: 1fr;
