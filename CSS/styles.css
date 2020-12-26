@@ -73,7 +73,7 @@ img{
 }
 
 .showcase{
-	background-image: url('IMG/pexels-laptop-image.jpg');
+	background-image: url('/IMG/pexels-laptop-image.jpg');
 	background-size: cover;
   	background-position: center;
 	grid-column: 1 / span 3;
