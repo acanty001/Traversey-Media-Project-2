@@ -213,7 +213,6 @@ img{
 
 /*-- Media Queries --*/
 @media (max-width: 900px){
-
 	.main-nav ul{
 		grid-template-columns: 1fr;
 	}
@@ -226,12 +225,15 @@ img{
 	}
 	.container-2 .top-box-a p{
 		font-size: 2em;
+		line-height: 1em;
+
 	}
 	.container-2 .top-box-b {
 		grid-column: 3 / span 2; 
 	}
 	.container-2 .top-box-b p{
 		font-size: 2em;
+		line-height: 1em;
 	}
 	.container-3{
 		grid-template-columns: 1fr;
@@ -239,7 +241,17 @@ img{
 	.mid-box-2 .content a{
 		padding: 15px;
 	}
+	.mid-box-2 .content .btn{
+		text-align: center;
+	}
+	.mid-box-2 .content{
+		grid-column: 1 / span 4;
+	}
+	.mid-box-2 .image{
+		grid-column: 1 / span 2;
+	}
 	.container-5{
 		grid-template-columns: 1fr;
 	}
 }
+
