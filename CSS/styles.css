@@ -228,7 +228,7 @@ img{
 		line-height: 1em;
 	}
 	.container-2 .top-box-a h4{
-		line-height: 0;
+		line-height: 3em;
 
 	}
 	.container-2 .top-box-b {
@@ -239,7 +239,7 @@ img{
 		line-height: 1em;
 	}
 	.container-2 .top-box-b h4{
-		line-height: 3em;
+		line-height: 0;
 	}
 	.container-3{
 		grid-template-columns: 1fr;
